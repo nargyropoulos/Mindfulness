@@ -1,26 +1,47 @@
 div{
-    border: inset 2px black;
-    width: 500px;
+    background: dimgray;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+    
 }
 
 input{
     margin-right: 20px;
+    margin-bottom: 60px;
 }
 
 form{
     width: 500px;
+    margin-left: 120px;
+    margin-top: 125px;
 }
 
-@media only screen and (min-width: 410px){
+body{
+    background-color: midnightblue;
+    color: lightgray;
+    margin: auto auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
     div{
-        width: 300px;
+        width: 200px;
+        margin-left: 150px;
     }
 
     input{
-        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
     }
     
     form{
         width: 200px;
+        margin-left: 150px;
+        margin-bottom: 20px;
     }
+
+
 }
